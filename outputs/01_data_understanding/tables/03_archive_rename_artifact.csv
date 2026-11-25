@@ -1,0 +1,9 @@
+indicador,valor
+Specs arquivadas (deduplicadas),12893.0
+… com um único commit (%),96.63
+… com data AAAA-MM-DD no caminho (%),97.74
+… 1º commit a até 2 dias da data do arquivamento (%),86.26
+… 1º commit mais de 2 dias ANTES do arquivamento (%),0.15
+… mensagem do 1º commit menciona 'archiv' (%),57.04
+Arquivos de spec em /archive/ nos PRs com status renamed (%),29.84
+Specs vivas (openspec/specs/) com um único commit (%),49.1

@@ -1,0 +1,6 @@
+state_T30,n_tasks,completion,proposal_bytes,n_spec_deltas,n_code_refs,repo_n_changes,has_design %,changes (n),repos (n)
+completed,12.0,1.0,2081.0,1.0,1.0,310.0,77.9,5996,125
+completed with pending tasks,18.0,0.82,2712.0,1.0,2.0,136.0,77.0,1106,88
+in progress,13.0,0.81,3696.0,1.0,2.0,113.0,55.6,277,42
+overtaken,19.0,0.87,2377.0,1.0,1.0,100.0,80.1,549,54
+stalled,22.0,0.95,2349.0,1.0,2.0,23.0,80.6,170,39

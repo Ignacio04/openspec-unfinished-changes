@@ -1,0 +1,13 @@
+,sample (500 repos),full broad census
+OpenSpec specs,19421.0,259042.0
+OpenSpec repos,147.0,8895.0
+repos with ≥100 stars %,47.62,1.99
+living specs %,23.25,27.0
+archived specs %,66.39,56.59
+change_proposal specs %,9.41,15.34
+change folders (from spec deltas),8364.0,94252.0
+repos with change folders,142.0,8429.0
+archived share of change folders %,85.81,78.47
+"change folders per repo, median",19.0,4.0
+repos that never archived a change %,11.27,29.43
+single-commit living specs %,49.1,62.66

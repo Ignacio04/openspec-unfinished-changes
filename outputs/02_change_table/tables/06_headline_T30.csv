@@ -1,0 +1,5 @@
+,n,repos,pct,ci95,repo_macro_pct
+potentially unfinished (all changes),91736,8301,21.5,"[20.4, 22.5]",28.8
+not closed (all changes),91736,8301,7.2,"[6.6, 8.0]",13.5
+archived with pending tasks (archived changes with tasks),71361,5812,17.2,"[16.1, 18.3]",19.7
+"done, not archived (stopped active changes with tasks)",14091,3925,47.2,"[44.9, 49.3]",43.3

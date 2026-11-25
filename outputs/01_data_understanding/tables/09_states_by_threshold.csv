@@ -1,0 +1,4 @@
+T_days,completed (n),completed with pending tasks (n),archived without task counts (n),in progress (n),overtaken (n),stalled (n),active: in progress %,active: overtaken %,active: stalled %,"potentially unfinished, all changes %"
+30,5996,1106,76,277,549,170,27.81,55.12,17.07,22.33
+60,5996,1106,76,496,377,123,49.8,37.85,12.35,19.65
+90,5996,1106,76,664,252,80,66.67,25.3,8.03,17.59

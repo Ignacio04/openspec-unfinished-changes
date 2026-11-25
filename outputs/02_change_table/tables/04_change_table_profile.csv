@@ -1,0 +1,11 @@
+indicator,value
+changes per repo — median,4.0
+changes per repo — p90,24.0
+changes per repo — max,1262.0
+share of changes in the 10 largest repos %,6.1
+repos with a single change %,27.15
+repos that never archived a change %,29.25
+active changes with dated spec delta %,99.84
+archived changes with spec delta %,99.83
+changes without tasks.md %,0.72
+changes without proposal.md %,0.36

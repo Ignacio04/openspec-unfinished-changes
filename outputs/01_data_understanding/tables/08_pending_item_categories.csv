@@ -1,0 +1,9 @@
+,active,archived
+manual verification / QA,10.0,16.0
+automated tests,16.6,22.8
+documentation,3.4,5.2
+deploy / release / ops,4.2,5.8
+optional / follow-up,2.0,4.1
+OpenSpec housekeeping,2.4,6.3
+uncategorized (likely implementation),68.0,53.7
+unchecked items (n),9577.0,9564.0

@@ -1,0 +1,11 @@
+# local cache of SpecMine tables downloaded from Hugging Face (not redistributed)
+data_cache/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# never commit credentials or local env
+.env
+*.env

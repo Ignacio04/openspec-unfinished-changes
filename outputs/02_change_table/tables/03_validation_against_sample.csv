@@ -1,0 +1,8 @@
+quantity,notebook 01 (sample files),full census restricted to sample,match
+changes,8174.0,8174.0,True
+active changes,996.0,996.0,True
+archived changes,7178.0,7178.0,True
+repos,142.0,142.0,True
+active with pending tasks %,60.6,60.6,True
+archived with pending tasks %,15.6,15.6,True
+active changes with dated spec delta %,100.0,100.0,True

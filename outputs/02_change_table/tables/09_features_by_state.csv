@@ -1,0 +1,7 @@
+state,n_tasks,completion,n_pending,proposal_bytes,n_spec_deltas,n_code_refs,repo_n_changes,has_design %,changes (n),repos (n)
+completed,15.0,1.0,0.0,2141.0,1.0,2.0,38.0,87.4,59096,5363
+completed with pending tasks,25.0,0.82,4.0,2941.0,1.0,4.0,35.0,84.3,12265,2748
+in progress,17.0,1.0,0.0,2696.0,1.0,2.0,23.0,82.0,4339,1177
+"done, not archived",15.0,1.0,0.0,1816.0,1.0,1.0,14.0,84.3,6649,2192
+overtaken,23.0,0.0,12.0,2562.0,1.0,2.0,30.5,82.7,2368,655
+stalled,26.0,0.31,10.0,2337.0,1.0,2.0,8.0,81.0,5074,2254

@@ -1,0 +1,6 @@
+verificação,n
+artefatos com fetch_status ≠ done,21
+artefatos fora de openspec/changes/,335
+"(repo, caminho) duplicados",0
+tasks.md com n_tasks_done > n_tasks,0
+tasks.md sem contagem (conteúdo ausente),7

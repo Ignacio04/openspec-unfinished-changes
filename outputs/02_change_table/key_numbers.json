@@ -1,0 +1,142 @@
+{
+  "validation_all_match": true,
+  "changes": {
+    "total": 91736,
+    "active": 19009,
+    "archived": 72727,
+    "repos": 8301
+  },
+  "profile": {
+    "changes per repo — median": 4.0,
+    "changes per repo — p90": 24.0,
+    "changes per repo — max": 1262.0,
+    "share of changes in the 10 largest repos %": 6.1,
+    "repos with a single change %": 27.15,
+    "repos that never archived a change %": 29.25,
+    "active changes with dated spec delta %": 99.84,
+    "archived changes with spec delta %": 99.83,
+    "changes without tasks.md %": 0.72,
+    "changes without proposal.md %": 0.36
+  },
+  "states_by_T": {
+    "30": {
+      "completed (n)": 59096,
+      "completed with pending tasks (n)": 12265,
+      "archived without task counts (n)": 1366,
+      "in progress (n)": 4339,
+      "done, not archived (n)": 6649,
+      "overtaken (n)": 2368,
+      "stalled (n)": 5074,
+      "stopped without task counts (n)": 548,
+      "undated (n)": 31,
+      "potentially unfinished, % of all changes": 21.48,
+      "not closed, % of all changes": 7.25,
+      "active: in progress %": 22.83,
+      "active: done, not archived %": 34.98,
+      "active: overtaken %": 12.46,
+      "active: stalled %": 26.69
+    },
+    "60": {
+      "completed (n)": 59096,
+      "completed with pending tasks (n)": 12265,
+      "archived without task counts (n)": 1366,
+      "in progress (n)": 8637,
+      "done, not archived (n)": 4605,
+      "overtaken (n)": 1656,
+      "stalled (n)": 3740,
+      "stopped without task counts (n)": 340,
+      "undated (n)": 31,
+      "potentially unfinished, % of all changes": 19.25,
+      "not closed, % of all changes": 5.02,
+      "active: in progress %": 45.44,
+      "active: done, not archived %": 24.23,
+      "active: overtaken %": 8.71,
+      "active: stalled %": 19.67
+    },
+    "90": {
+      "completed (n)": 59096,
+      "completed with pending tasks (n)": 12265,
+      "archived without task counts (n)": 1366,
+      "in progress (n)": 11634,
+      "done, not archived (n)": 3124,
+      "overtaken (n)": 1181,
+      "stalled (n)": 2807,
+      "stopped without task counts (n)": 232,
+      "undated (n)": 31,
+      "potentially unfinished, % of all changes": 17.72,
+      "not closed, % of all changes": 3.41,
+      "active: in progress %": 61.2,
+      "active: done, not archived %": 16.43,
+      "active: overtaken %": 6.21,
+      "active: stalled %": 14.77
+    }
+  },
+  "headline_T30": {
+    "potentially unfinished (all changes)": {
+      "n": 91736,
+      "repos": 8301,
+      "pct": 21.5,
+      "ci95": "[20.4, 22.5]",
+      "repo_macro_pct": 28.8
+    },
+    "not closed (all changes)": {
+      "n": 91736,
+      "repos": 8301,
+      "pct": 7.2,
+      "ci95": "[6.6, 8.0]",
+      "repo_macro_pct": 13.5
+    },
+    "archived with pending tasks (archived changes with tasks)": {
+      "n": 71361,
+      "repos": 5812,
+      "pct": 17.2,
+      "ci95": "[16.1, 18.3]",
+      "repo_macro_pct": 19.7
+    },
+    "done, not archived (stopped active changes with tasks)": {
+      "n": 14091,
+      "repos": 3925,
+      "pct": 47.2,
+      "ci95": "[44.9, 49.3]",
+      "repo_macro_pct": 43.3
+    }
+  },
+  "repos_with_unfinished_pct": 55.97,
+  "repos_with_unclosed_pct": 26.41,
+  "robustness_T30": {
+    "all repos": {
+      "potentially unfinished %": 21.48,
+      "not closed %": 7.25
+    },
+    "without 10 largest repos": {
+      "potentially unfinished %": 21.92,
+      "not closed %": 7.59
+    },
+    "repos that archived at least once": {
+      "potentially unfinished %": 19.77,
+      "not closed %": 4.45
+    }
+  },
+  "pending_categories": {
+    "active": {
+      "manual verification / QA": 12.9,
+      "automated tests": 15.6,
+      "documentation": 3.5,
+      "deploy / release / ops": 3.5,
+      "optional / follow-up": 1.5,
+      "OpenSpec housekeeping": 1.9,
+      "uncategorized (likely implementation)": 67.4,
+      "unchecked items (n)": 227301.0
+    },
+    "archived": {
+      "manual verification / QA": 14.8,
+      "automated tests": 19.0,
+      "documentation": 3.4,
+      "deploy / release / ops": 4.2,
+      "optional / follow-up": 3.1,
+      "OpenSpec housekeeping": 3.7,
+      "uncategorized (likely implementation)": 61.8,
+      "unchecked items (n)": 144890.0
+    }
+  }
+}

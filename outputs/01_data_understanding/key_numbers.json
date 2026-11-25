@@ -1,0 +1,152 @@
+{
+  "spec_dup_rows": 2711,
+  "n_openspec_specs": 19421,
+  "archive_artifact": {
+    "Specs arquivadas (deduplicadas)": 12893.0,
+    "… com um único commit (%)": 96.63,
+    "… com data AAAA-MM-DD no caminho (%)": 97.74,
+    "… 1º commit a até 2 dias da data do arquivamento (%)": 86.26,
+    "… 1º commit mais de 2 dias ANTES do arquivamento (%)": 0.15,
+    "… mensagem do 1º commit menciona 'archiv' (%)": 57.04,
+    "Arquivos de spec em /archive/ nos PRs com status renamed (%)": 29.84,
+    "Specs vivas (openspec/specs/) com um único commit (%)": 49.1
+  },
+  "changes": {
+    "total": 8174,
+    "active": 996,
+    "archived": 7178,
+    "repos": 142
+  },
+  "coverage": {
+    "Mudanças ativas com spec delta datado (%)": 100.0,
+    "Mudanças arquivadas com spec delta (%)": 99.43,
+    "Mudanças sem tasks.md (%)": 0.76,
+    "Mudanças sem proposal.md (%)": 0.06,
+    "Pastas de mudança vistas em spec_files e ausentes do snapshot de artefatos": 231.0,
+    "… repositórios envolvidos": 31.0,
+    "… máximo num único repositório": 116.0
+  },
+  "concentration": {
+    "Mudanças por repositório — mediana": 19.0,
+    "Mudanças por repositório — p90": 110.8,
+    "Mudanças por repositório — máximo": 1262.0,
+    "Parcela das mudanças nos 5 maiores repositórios (%)": 41.4,
+    "Repositórios com só mudanças arquivadas": 54.0,
+    "Repositórios com só mudanças ativas": 16.0
+  },
+  "any_pending_active": {
+    "n": 968,
+    "repos": 87,
+    "pct": 60.6,
+    "ci95": "[51.7, 68.8]",
+    "repo_macro_pct": 62.4
+  },
+  "any_pending_archived": {
+    "n": 7102,
+    "repos": 126,
+    "pct": 15.6,
+    "ci95": "[11.7, 21.1]",
+    "repo_macro_pct": 18.7
+  },
+  "pending_categories": {
+    "active": {
+      "manual verification / QA": 10.0,
+      "automated tests": 16.6,
+      "documentation": 3.4,
+      "deploy / release / ops": 4.2,
+      "optional / follow-up": 2.0,
+      "OpenSpec housekeeping": 2.4,
+      "uncategorized (likely implementation)": 68.0,
+      "unchecked items (n)": 9577.0
+    },
+    "archived": {
+      "manual verification / QA": 16.0,
+      "automated tests": 22.8,
+      "documentation": 5.2,
+      "deploy / release / ops": 5.8,
+      "optional / follow-up": 4.1,
+      "OpenSpec housekeeping": 6.3,
+      "uncategorized (likely implementation)": 53.7,
+      "unchecked items (n)": 9564.0
+    }
+  },
+  "states": {
+    "30": {
+      "completed (n)": 5996,
+      "completed with pending tasks (n)": 1106,
+      "archived without task counts (n)": 76,
+      "in progress (n)": 277,
+      "overtaken (n)": 549,
+      "stalled (n)": 170,
+      "active: in progress %": 27.81,
+      "active: overtaken %": 55.12,
+      "active: stalled %": 17.07,
+      "potentially unfinished, all changes %": 22.33
+    },
+    "60": {
+      "completed (n)": 5996,
+      "completed with pending tasks (n)": 1106,
+      "archived without task counts (n)": 76,
+      "in progress (n)": 496,
+      "overtaken (n)": 377,
+      "stalled (n)": 123,
+      "active: in progress %": 49.8,
+      "active: overtaken %": 37.85,
+      "active: stalled %": 12.35,
+      "potentially unfinished, all changes %": 19.65
+    },
+    "90": {
+      "completed (n)": 5996,
+      "completed with pending tasks (n)": 1106,
+      "archived without task counts (n)": 76,
+      "in progress (n)": 664,
+      "overtaken (n)": 252,
+      "stalled (n)": 80,
+      "active: in progress %": 66.67,
+      "active: overtaken %": 25.3,
+      "active: stalled %": 8.03,
+      "potentially unfinished, all changes %": 17.59
+    }
+  },
+  "active_idle_median_days": {
+    "with_pending": 67.3,
+    "all_checked": 55.2
+  },
+  "stopped_T30_all_checked": {
+    "n": 702,
+    "repos": 71,
+    "pct": 40.0,
+    "ci95": "[29.8, 50.2]",
+    "repo_macro_pct": 39.4
+  },
+  "sample_vs_full": {
+    "sample (500 repos)": {
+      "OpenSpec specs": 19421.0,
+      "OpenSpec repos": 147.0,
+      "repos with ≥100 stars %": 47.62,
+      "living specs %": 23.25,
+      "archived specs %": 66.39,
+      "change_proposal specs %": 9.41,
+      "change folders (from spec deltas)": 8364.0,
+      "repos with change folders": 142.0,
+      "archived share of change folders %": 85.81,
+      "change folders per repo, median": 19.0,
+      "repos that never archived a change %": 11.27,
+      "single-commit living specs %": 49.1
+    },
+    "full broad census": {
+      "OpenSpec specs": 259042.0,
+      "OpenSpec repos": 8895.0,
+      "repos with ≥100 stars %": 1.99,
+      "living specs %": 27.0,
+      "archived specs %": 56.59,
+      "change_proposal specs %": 15.34,
+      "change folders (from spec deltas)": 94252.0,
+      "repos with change folders": 8429.0,
+      "archived share of change folders %": 78.47,
+      "change folders per repo, median": 4.0,
+      "repos that never archived a change %": 29.43,
+      "single-commit living specs %": 62.66
+    }
+  }
+}

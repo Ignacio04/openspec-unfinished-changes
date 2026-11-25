@@ -1,0 +1,8 @@
+,n_tasks,completion,n_pending,proposal_bytes,n_spec_deltas,n_code_refs,repo_n_changes
+n_tasks,1.0,-0.22,0.26,0.56,0.35,0.43,-0.13
+completion,-0.22,1.0,-1.0,-0.16,0.0,-0.1,0.11
+n_pending,0.26,-1.0,1.0,0.18,0.02,0.12,-0.12
+proposal_bytes,0.56,-0.16,0.18,1.0,0.29,0.44,0.03
+n_spec_deltas,0.35,0.0,0.02,0.29,1.0,0.17,-0.05
+n_code_refs,0.43,-0.1,0.12,0.44,0.17,1.0,-0.05
+repo_n_changes,-0.13,0.11,-0.12,0.03,-0.05,-0.05,1.0

@@ -1,0 +1,7 @@
+,n_tasks,completion,proposal_bytes,n_spec_deltas,n_code_refs,repo_n_changes
+n_tasks,1.0,-0.18,0.62,0.26,0.52,-0.2
+completion,-0.18,1.0,-0.15,0.06,-0.08,0.15
+proposal_bytes,0.62,-0.15,1.0,0.26,0.49,-0.16
+n_spec_deltas,0.26,0.06,0.26,1.0,0.1,0.12
+n_code_refs,0.52,-0.08,0.49,0.1,1.0,-0.15
+repo_n_changes,-0.2,0.15,-0.16,0.12,-0.15,1.0

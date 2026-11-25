@@ -1,0 +1,12 @@
+check,result
+artifacts: fetch_status ≠ done,1689
+artifacts: outside openspec/changes/,3367
+"artifacts: duplicated (repo, path)",0
+artifacts: n_tasks_done > n_tasks,0
+artifacts: tasks.md without counts,586
+artifacts: fetched_at range,2026-07-20T22:47:26Z → 2026-07-21T16:48:12Z
+OpenSpec specs: commit_history_status ≠ done,937
+"OpenSpec specs: duplicated (repo, path) rows",15136
+OpenSpec specs: forks / archived repos,0 / 0
+active delta commits: committed_at range,2025-09-15 → 2026-07-11
+active delta commits: after OBS_END,0
